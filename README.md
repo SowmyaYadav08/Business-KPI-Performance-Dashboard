@@ -1,48 +1,123 @@
-# Business KPI Performance Dashboard
+# Operational Performance Dashboard
 
-A Power BI portfolio project for analyzing business performance across countries, platforms, and reporting periods.
+A Power BI portfolio project for analyzing operational performance across countries, platforms, and reporting periods.
 
-The dashboard uses a fully synthetic dataset and demonstrates my experience with Excel data preparation, Power Query, DAX, and interactive Power BI reporting.
+The dashboard focuses on three main business areas:
 
-## Dashboard
+- Output performance
+- Lot size analysis
+- Sample request activity
 
-![Business KPI Performance Dashboard](Dashboard.png)
+It allows users to interactively filter the data by platform, country, and year, and switch the output trend between yearly, quarterly, and monthly reporting views.
 
-## What the Dashboard Analyzes
+The dataset used in this project is fully synthetic and was created for portfolio purposes. The dashboard is inspired by management-reporting and KPI-analysis workflows.
 
-- Output by country, year, and quarter
-- Monthly output trends
-- Minimum, average, and maximum lot sizes
-- Fast Track and Additional sample volumes
-- Performance across different countries and platforms
-- KPI summaries for total output, total samples, and average lot size
+---
 
-## Dashboard Features
+## Dashboard Preview
 
-- Interactive slicers for Year, Country, and Platform
-- KPI card visuals
-- Bar, line, clustered column, and stacked column charts
-- DAX measures for KPI calculations
-- Report-page tooltips for additional details
-- Monthly, quarterly, and yearly performance comparisons
+![Operational Performance Dashboard](Dashboard.png)
 
-## Tools Used
+---
 
-- Power BI
-- Power Query
-- DAX
-- Microsoft Excel
+## Key Features
 
-## Data
+### KPI Summary
 
-The dataset used in this project is completely synthetic and does not contain confidential or company data.
+The dashboard provides a high-level overview of:
 
-It contains fictional business KPI data for two platforms across five countries from January 2024 to September 2026.
+- Total Output Volume
+- Total Sample Requests
+- Average Lot Size
 
-The 2026 data covers January through September, so 2026 represents a partial year.
+### Output Analysis
 
-## Purpose
+- Output volume comparison across countries
+- Interactive output trend analysis
+- Year / Quarter / Month reporting-period selector
+- Platform, country, and year filters
 
-I created this project as a portfolio demonstration of the type of KPI reporting and business performance analysis I have worked with professionally.
+### Lot Size Analysis
 
-My previous experience includes preparing Excel-based reporting data, building and maintaining Power BI dashboards, creating DAX calculations, and supporting KPI analysis for management reporting.
+Compares the following metrics across countries:
+
+- Maximum Lot Size
+- Minimum Lot Size
+- Average Lot Size
+
+### Sample Request Analysis
+
+Compares sample activity by country using:
+
+- Fast Track Samples
+- Additional Samples
+
+### Dynamic Key Insights
+
+The dashboard automatically identifies the current top-performing country based on the selected filters:
+
+- Top Output Country
+- Top Average Lot Size
+- Top Sample Requests
+
+These insights are calculated dynamically using DAX and update when the user changes the report filters.
+
+---
+
+## Tools and Skills Demonstrated
+
+- Microsoft Power BI
+- DAX Measures
+- Data Modeling
+- Excel Data Preparation
+- KPI Reporting
+- Interactive Slicers
+- Field Parameters
+- Dynamic Filter Context
+- Data Visualization
+- Business Performance Analysis
+
+---
+
+## Interactive Reporting
+
+The dashboard supports filtering by:
+
+- Platform
+- Country
+- Year
+
+The **Year / Quarter / Month** selector in the Output Trend visual allows users to change the reporting granularity without using separate charts for each reporting period.
+
+---
+
+## Project Files
+
+- `Business_KPI_Performance_Dashboard.pbix`  
+  Interactive Power BI report
+
+- `Business_KPI_PowerBI_Source.xlsx`  
+  Synthetic source dataset used for the analysis
+
+- `Dashboard.png`  
+  Preview of the completed dashboard
+
+---
+
+## Project Purpose
+
+The purpose of this project was to create a clean and interactive management-style dashboard that transforms operational data into an easy-to-understand KPI reporting view.
+
+The project demonstrates how Power BI can be used to:
+
+- Monitor business performance
+- Compare performance across countries
+- Analyze trends over different reporting periods
+- Identify high-performing regions dynamically
+- Present management KPIs in a structured and visually consistent format
+
+---
+
+## Note
+
+This project uses synthetic data and does not contain confidential or proprietary company information.
